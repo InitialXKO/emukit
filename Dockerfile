@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM nodejs:latest
 # To note: Layerfiles create VMs, *not* containers!
 
 # Install node
