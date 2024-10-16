@@ -12,6 +12,5 @@ RUN npm install
 RUN npm start
 
 #RUN BACKGROUND http-server -p 8000
-EXPOSE 3000
-# WEBSITE http://localhost:8000
+EXPOSE WEBSITE http://localhost:8000
 CMD ["node", "index.js"]
