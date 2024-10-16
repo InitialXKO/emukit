@@ -1,4 +1,4 @@
-FROM vm/ubuntu:18.04
+FROM ubuntu:latest
 # To note: Layerfiles create VMs, *not* containers!
 
 # Install node
